@@ -1,10 +1,10 @@
-# 📈 Image Super Resolution Tool
+# Image Super Resolution Tool
 
 This project is a **Gradio-based ESRGAN Image Upscaler** deployed on **Hugging Face Spaces**. It uses the **Enhanced Super-Resolution Generative Adversarial Network (ESRGAN)** model to upscale low-resolution images by 4x while preserving details and enhancing quality.
 
 ---
 
-## 🚀 Features
+## Features
 - Upload multiple low-resolution images  
 - Automatically upscale using **ESRGAN (x4 factor)**  
 - Preview upscaled images in the browser  
@@ -20,7 +20,7 @@ use these images to quickly test the upscaling functionality on this Space.
 ```
 ---
 
-## 🛠 Requirements
+## Requirements
 
 For Hugging Face Spaces (Gradio template), add these dependencies in `requirements.txt`:
 
@@ -35,7 +35,7 @@ gradio
 
 ---
 
-## ✅ Usage
+## Usage
 - **Step 1:** Upload one or more low-resolution images.
 - **Step 2:** Click **Upscale Images**.
 - **Step 3:** View the upscaled images in the gallery.
@@ -44,7 +44,7 @@ gradio
 
 ---
 
-## 📌 Model Details
+## Model Details
 - Model: **ESRGAN (RRDBNet architecture)**  
 - Pretrained weights: `RRDB_ESRGAN_x4.pth`  
 - Scaling: **x4 super-resolution**
@@ -53,10 +53,10 @@ Download ESRGAN pretrained weights from [link]([https://github.com/xinntao/ESRGA
 
 ---
 
-## 📸 Preview
+## Preview
 ![Gradio UI](https://github.com/saifibolte/Image-Super-Resolution-Tool/blob/c65089f49e783e0e2daa011b1dfb8d992e78aa38/figures/UI.png)
 
 ---
 
-### ✅ Credits
+### Credits
 - [ESRGAN Original Repository](https://github.com/xinntao/ESRGAN)
