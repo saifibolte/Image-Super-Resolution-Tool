@@ -43,7 +43,7 @@ gradio
 - Pretrained weights: `RRDB_ESRGAN_x4.pth`  
 - Scaling: **x4 super-resolution**
 
-Download ESRGAN pretrained weights from [Xintao's ESRGAN repo](https://github.com/xinntao/ESRGAN).
+Download ESRGAN pretrained weights from [link]([https://github.com/xinntao/ESRGAN](https://drive.google.com/file/d/1eoWN613w5pjL4Uyh5XnYMuBIXL52CZ4z/view?usp=sharing)).
 
 ---
 
@@ -54,5 +54,3 @@ Download ESRGAN pretrained weights from [Xintao's ESRGAN repo](https://github.co
 
 ### ✅ Credits
 - [ESRGAN Original Repository](https://github.com/xinntao/ESRGAN)
-- [Gradio](https://gradio.app)
-- [Hugging Face Spaces](https://huggingface.co/spaces)
