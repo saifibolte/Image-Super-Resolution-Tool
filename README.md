@@ -13,7 +13,10 @@ This project is a **Gradio-based ESRGAN Image Upscaler** deployed on **Hugging F
 - One-click deployment on Hugging Face Spaces - [View Live Demo](https://huggingface.co/spaces/saifibolte/TinyLlama-AI-Assistant) *(Runs on CPU, so generation may be slower)*
 
 ```
-Note: This Hugging Face Space is running on CPU, which means the image upscaling process can take longer compared to GPU-based environments, especially for high-resolution images. To ensure a smooth experience and faster results, we recommend testing with smaller or low-resolution images. For your convenience, we have provided a set of sample images in the low_res folder. You can use these images to quickly test the upscaling functionality on this Space. 
+Note: This Hugging Face Space is running on CPU, which means the image upscaling process can take longer compared to GPU-based
+environments, especially for high-resolution images. To ensure a smooth experience and faster results, we recommend testing with
+smaller or low-resolution images. For your convenience, we have provided a set of sample images in the low_res folder. You can
+use these images to quickly test the upscaling functionality on this Space. 
 ```
 ---
 
