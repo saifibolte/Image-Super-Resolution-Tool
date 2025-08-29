@@ -29,21 +29,6 @@ gradio
 
 ---
 
-## ▶️ How to Deploy on Hugging Face Spaces
-
-1. Create a new **Gradio Space** on [Hugging Face Spaces](https://huggingface.co/spaces).
-2. Select **SDK: Gradio**.
-3. Upload the following files:
-    - `app.py` (main Gradio app)
-    - `RRDBNet_arch.py` (ESRGAN model architecture)
-    - `models/RRDB_ESRGAN_x4.pth` (pretrained ESRGAN model)
-    - `requirements.txt`
-    - `README.md`
-4. Commit the files.
-5. The Space will **automatically build and launch** your app.
-
----
-
 ## ✅ Usage
 - **Step 1:** Upload one or more low-resolution images.
 - **Step 2:** Click **Upscale Images**.
