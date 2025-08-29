@@ -1,16 +1,18 @@
-# 📈 ESRGAN Image Upscaler (Gradio + Hugging Face Spaces)
+# 📈 Image Super Resolution Tool
 
 This project is a **Gradio-based ESRGAN Image Upscaler** deployed on **Hugging Face Spaces**. It uses the **Enhanced Super-Resolution Generative Adversarial Network (ESRGAN)** model to upscale low-resolution images by 4x while preserving details and enhancing quality.
 
 ---
 
 ## 🚀 Features
-✔ Upload multiple low-resolution images  
-✔ Automatically upscale using **ESRGAN (x4 factor)**  
-✔ Preview upscaled images in the browser  
-✔ Download all upscaled images as a **ZIP file**  
-✔ Works on **GPU or CPU**  
-✔ One-click deployment on Hugging Face Spaces  
+- Upload multiple low-resolution images  
+- Automatically upscale using **ESRGAN (x4 factor)**  
+- Preview upscaled images in the browser  
+- Download all upscaled images as a **ZIP file**  
+- Works on **GPU or CPU**  
+- One-click deployment on Hugging Face Spaces - [View Live Demo](https://huggingface.co/spaces/saifibolte/TinyLlama-AI-Assistant) *(Runs on CPU, so generation may be slower)*
+
+- Note: This Hugging Face Space is running on CPU, which means the image upscaling process can take longer compared to GPU-based environments, especially for high-resolution images. To ensure a smooth experience and faster results, we recommend testing with smaller or low-resolution images. For your convenience, we have provided a set of sample images in the low_res folder. You can use these images to quickly test the upscaling functionality on this Space. 
 
 ---
 
@@ -48,7 +50,7 @@ Download ESRGAN pretrained weights from [link]([https://github.com/xinntao/ESRGA
 ---
 
 ## 📸 Preview
-![ESRGAN Gradio UI](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/gradio-interface.png)
+![Gradio UI](https://github.com/saifibolte/Image-Super-Resolution-Tool/blob/c65089f49e783e0e2daa011b1dfb8d992e78aa38/figures/UI.png)
 
 ---
 
